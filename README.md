@@ -26,3 +26,7 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 
 ### 7. SQLAlchemy
 ![Screenshot 7](screenshots/7.png)
+
+### 8. Search functionality
+![Screenshot 8.1](screenshots/8.1.png)
+![Screenshot 8.2](screenshots/8.2.png)
