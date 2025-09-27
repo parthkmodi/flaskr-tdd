@@ -17,3 +17,6 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 ### 4. Styling and Delete message functionality
 ![Screenshot 4.1](screenshots/4.1.png)
 ![Screenshot 4.2](screenshots/4.2.png)
+
+### 5. Deployment
+![Screenshot 5](screenshots/5.png)
