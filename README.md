@@ -30,3 +30,7 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 ### 8. Search functionality
 ![Screenshot 8.1](screenshots/8.1.png)
 ![Screenshot 8.2](screenshots/8.2.png)
+
+### 9. Login required
+![Screenshot 9.1](screenshots/9.1.png)
+![Screenshot 9.2](screenshots/9.2.png)

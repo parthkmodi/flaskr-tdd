@@ -70,7 +70,11 @@ def test_messages(client):
 
 def test_delete_message(client):
     """Ensure the messages are being deleted"""
-    rv = client.get('/delete/1')
+    rv = client.get("/delete/1")
+    data = json.loads(rv.data)
+    assert data["status"] == 0
+    login(client, app.config["USERNAME"], app.config["PASSWORD"])
+    rv = client.get("/delete/1")
     data = json.loads(rv.data)
     assert data["status"] == 1
 
@@ -78,3 +82,12 @@ def test_search(client):
     """Ensure the search functionality works"""
     rv = client.get('/search/?query=test', content_type='html/text')
     assert rv.status_code == 200
+
+def test_login_required(client):
+    """Ensure that login is required for adding posts"""
+    rv = client.post(
+        "/add",
+        data=dict(title="Test", text="Test"),
+        follow_redirects=True,
+    )
+    assert rv.status_code == 401
