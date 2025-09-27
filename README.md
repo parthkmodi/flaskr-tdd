@@ -23,3 +23,6 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 
 ### 6. Bootstrap
 ![Screenshot 6](screenshots/6.png)
+
+### 7. SQLAlchemy
+![Screenshot 7](screenshots/7.png)
