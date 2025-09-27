@@ -89,7 +89,7 @@ def test_delete_message(client):
 
 def test_search(client):
     """Ensure the search functionality works"""
-    rv = client.get('/search/?query=test', content_type='html/text')
+    rv = client.get("/search/?query=test", content_type="html/text")
     assert rv.status_code == 200
 
 
