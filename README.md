@@ -20,3 +20,6 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 
 ### 5. Deployment
 ![Screenshot 5](screenshots/5.png)
+
+### 6. Bootstrap
+![Screenshot 6](screenshots/6.png)
