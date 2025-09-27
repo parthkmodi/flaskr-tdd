@@ -8,5 +8,8 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 ### 1. Initial Tests Passing
 ![Screenshot 1](screenshots/1.png)
 
-### 1. Database Setup and Tests
+### 2. Database Setup and Tests
 ![Screenshot 2](screenshots/2.png)
+
+### 3. Login and Logout functionality with tests
+![Screenshot 3](screenshots/3.png)
