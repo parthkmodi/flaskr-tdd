@@ -13,3 +13,7 @@ This repo is adapted from [shuruizUofT/flaskr-tdd](https://github.com/shuruizUof
 
 ### 3. Login and Logout functionality with tests
 ![Screenshot 3](screenshots/3.png)
+
+### 4. Styling and Delete message functionality
+![Screenshot 4.1](screenshots/4.1.png)
+![Screenshot 4.2](screenshots/4.2.png)
